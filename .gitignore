@@ -3,4 +3,10 @@
 .py
 retrosheet-data
 dist
+.ipynb_checkpoints
+derby.log
+metastore_db
 
+
+
+	
