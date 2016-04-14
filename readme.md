@@ -39,7 +39,8 @@ Then run python notebook and execute each buffer, then query and enjoy!
 
 ## Notes
 
-* The value for Play.countBalls and Play.countStrikes can be missing and unfortunaetly i had trouble making it nullable. so, in cases where it is missing, i supply the value -1. if you're doing something like average count or the like, exclude these records.
+* the er type on data might be short a column 
+* really need to partition
 
 
 
