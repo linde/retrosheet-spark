@@ -4,6 +4,10 @@ This is a simple project to create data frames in spark for the data
 contained in retrosheets baseball archive. It is distributed as a
 python notebook.
 
+This project owes a lot to the helpful comment here:
+http://stackoverflow.com/questions/31227363/creating-spark-data-structure-from-multiline-record
+
+
 ## Getting the retrosheets data
 
 ```bash
@@ -25,9 +29,6 @@ $ pip install ipython[notebook]
 
 ```
 
-TODO - i cant recall if we need to install pyspark ...
-
-
 ## The finally, to run things
 
 
@@ -39,7 +40,6 @@ Then run python notebook and execute each buffer, then query and enjoy!
 
 ## Notes
 
-* the er type on data might be short a column 
 * really need to partition
 
 
