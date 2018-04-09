@@ -25,15 +25,14 @@ $ brew install apache-spark
 
 $ virtualenv .py
 $ . .py/bin/activate
-$ pip install ipython[notebook]
+$ pip install jupyter plotly pandas
 
 ```
 
 ## The finally, to run things
 
-
 ```bash
-$ IPYTHON_OPTS="notebook" pyspark  --executor-memory 2GB 
+PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark  --executor-memory 2GB 
 ```
 
 Then run python notebook and execute each buffer, then query and enjoy!
