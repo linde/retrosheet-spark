@@ -20,18 +20,18 @@ $ for yyyy in `seq 1910 10 2010`; do unzip -d ${yyyy}seve  ${yyyy}seve.zip; done
 
 ## Some notes on getting up and going...
 
+This verion targets the latest python3 in brew at the moment (Python
+3.6.5) and spark v2.3.0 running pyspark within jupyter.. You can do
+something akin to the following to get them installed.
+
+
 ```bash
 $ brew install apache-spark
-```
-
-this verion targets the latest python3 in brew at the moment (Python 3.6.5) and spark v2.3.0. Assuming that is installed, then get the requirements:
-
-```bash
-
+$ brew install python
+$ pip3 install virtualenv
 $ virtualenv .py
 $ . .py/bin/activate
 $ pip install jupyter 
-
 ```
 
 if you want to do the plotting example in [Raw event examples.ipynb], then also install the following:
@@ -39,7 +39,6 @@ if you want to do the plotting example in [Raw event examples.ipynb], then also 
 ```bash
 $ pip install plotly pandas
 ```
-
 
 ## The finally, to run things
 
@@ -51,7 +50,6 @@ Then run python notebook and execute each buffer, then query and enjoy!
 
 ## Notes
 
-* really need to partition
 
 
 
