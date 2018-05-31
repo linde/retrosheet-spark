@@ -37,7 +37,7 @@ $ pip install jupyter
 if you want to do the plotting example in [Raw event examples.ipynb], then also install the following:
 
 ```bash
-$ pip install plotly pandas
+$ pip install plotly 
 ```
 
 ## The finally, to run things
