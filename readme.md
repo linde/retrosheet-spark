@@ -34,7 +34,7 @@ $ . .py/bin/activate
 $ pip install jupyter 
 ```
 
-if you want to do the plotting example in [Raw event examples.ipynb], then also install the following:
+if you want to do the plotting example in [etrosheet-spark-queries.ipynb], then also install the following:
 
 ```bash
 $ pip install plotly 
