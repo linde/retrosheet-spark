@@ -48,7 +48,6 @@ PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark  --e
 
 Then run python notebook and execute each buffer, then query and enjoy!
 
-## Notes
 
 
 
